@@ -34,7 +34,7 @@ body {
   }
 #principal {
     height: 770px;
-    background: url("/AGRINHO-2025-main/exuberantes-terras-agricolas-verdes-sendo-pesquisadas-por-um-drone-para-agricultura-de-precisao.jpg");
+    background: url("/exuberantes-terras-agricolas-verdes-sendo-pesquisadas-por-um-drone-para-agricultura-de-precisao.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -133,3 +133,21 @@ body {
     text-align: center;
     margin-top: -80px; /* para aproximar do título */
   }
+  .scroll-button {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 12px 24px;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.scroll-button:hover {
+    background-color: #003019;
+    color: white;
+    transform: scale(1.05);
+}
